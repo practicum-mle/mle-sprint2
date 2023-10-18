@@ -1,2 +1,5 @@
 mlflow==2.7.1
 jupyterlab==4.0.7
+psycopg==3.1.12
+"psycopg[binary,pool]"
+pip install pandas==2.1.1
