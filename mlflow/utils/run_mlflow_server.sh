@@ -1,0 +1,9 @@
+export MLFLOW_S3_ENDPOINT_URL=...
+export AWS_ACCESS_KEY_ID=...
+export AWS_SECRET_ACCESS_KEY=...
+
+mlflow server \
+  --backend-store-uri postgresql://{user}:{password}@{host}:{port}/{database} \
+	--registry-store-uri postgresql://{user}:{password}@{host}:{port}/{database} \
+	--default-artifact-root s3://{bucket} \
+	--no-serve-artifacts
