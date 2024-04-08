@@ -7,7 +7,7 @@ from catboost import CatBoostClassifier
 TRACKING_SERVER_HOST = "127.0.0.1"
 TRACKING_SERVER_PORT = 5000
 EXPERIMENT_NAME = "churn_nikolaistepanov"
-RUN_NAME = "model_0"
+RUN_NAME = "model_baseline"
 MODEL_PATH = "model.cb"
 REGISTRY_MODEL_NAME = "student_model_name"
 
